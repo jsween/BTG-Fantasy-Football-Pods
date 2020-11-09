@@ -11,7 +11,7 @@ import SwiftUI
 struct BTG_Fantasy_Football_PodsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

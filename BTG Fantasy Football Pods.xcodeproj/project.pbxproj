@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2083E9F25525758002C57DB /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2083E9E25525758002C57DB /* TeamModel.swift */; };
+		F2083EA32552588B002C57DB /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2083EA22552588B002C57DB /* CodableBundleExtension.swift */; };
+		F238770B2553B5E600F100B3 /* TeamListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238770A2553B5E600F100B3 /* TeamListItemView.swift */; };
+		F238770E255453AA00F100B3 /* PodListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238770D255453AA00F100B3 /* PodListItemView.swift */; };
+		F268CE702558FC480088747E /* Pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F268CE6F2558FC480088747E /* Pod.swift */; };
+		F268CE73255901CE0088747E /* pods.json in Resources */ = {isa = PBXBuildFile; fileRef = F268CE72255901CE0088747E /* pods.json */; };
 		F28F4B1825524329007A758E /* BTG_Fantasy_Football_PodsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F4B1725524329007A758E /* BTG_Fantasy_Football_PodsApp.swift */; };
 		F28F4B1A25524329007A758E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F4B1925524329007A758E /* ContentView.swift */; };
 		F28F4B1C25524329007A758E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28F4B1B25524329007A758E /* Assets.xcassets */; };
 		F28F4B1F25524329007A758E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28F4B1E25524329007A758E /* Preview Assets.xcassets */; };
+		F28F4B2A2552479B007A758E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F4B292552479B007A758E /* MainView.swift */; };
+		F28F4B3025524CC4007A758E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F4B2F25524CC4007A758E /* Constants.swift */; };
+		F28F4B3425524E2C007A758E /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F4B3325524E2C007A758E /* MatchesView.swift */; };
+		F28F4B3A25525222007A758E /* teams.json in Resources */ = {isa = PBXBuildFile; fileRef = F28F4B3925525222007A758E /* teams.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2083E9E25525758002C57DB /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
+		F2083EA22552588B002C57DB /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		F238770A2553B5E600F100B3 /* TeamListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListItemView.swift; sourceTree = "<group>"; };
+		F238770D255453AA00F100B3 /* PodListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodListItemView.swift; sourceTree = "<group>"; };
+		F268CE6F2558FC480088747E /* Pod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pod.swift; sourceTree = "<group>"; };
+		F268CE72255901CE0088747E /* pods.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pods.json; sourceTree = "<group>"; };
 		F28F4B1425524329007A758E /* BTG Fantasy Football Pods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BTG Fantasy Football Pods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28F4B1725524329007A758E /* BTG_Fantasy_Football_PodsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTG_Fantasy_Football_PodsApp.swift; sourceTree = "<group>"; };
 		F28F4B1925524329007A758E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F28F4B1B25524329007A758E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F28F4B1E25524329007A758E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F28F4B2025524329007A758E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28F4B292552479B007A758E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F28F4B2F25524CC4007A758E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F28F4B3325524E2C007A758E /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		F28F4B3925525222007A758E /* teams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = teams.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F2083EA125525865002C57DB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F2083EA22552588B002C57DB /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F2083EA625530E82002C57DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F238770A2553B5E600F100B3 /* TeamListItemView.swift */,
+				F238770D255453AA00F100B3 /* PodListItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F28F4B0B25524329007A758E = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +89,11 @@
 		F28F4B1625524329007A758E /* BTG Fantasy Football Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F28F4B1725524329007A758E /* BTG_Fantasy_Football_PodsApp.swift */,
-				F28F4B1925524329007A758E /* ContentView.swift */,
+				F28F4B2E25524CB3007A758E /* Model */,
+				F28F4B272552471E007A758E /* App */,
+				F2083EA625530E82002C57DB /* View */,
+				F28F4B38255251A8007A758E /* Data */,
+				F2083EA125525865002C57DB /* Extension */,
 				F28F4B1B25524329007A758E /* Assets.xcassets */,
 				F28F4B2025524329007A758E /* Info.plist */,
 				F28F4B1D25524329007A758E /* Preview Content */,
@@ -67,6 +107,36 @@
 				F28F4B1E25524329007A758E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F28F4B272552471E007A758E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F28F4B1725524329007A758E /* BTG_Fantasy_Football_PodsApp.swift */,
+				F28F4B292552479B007A758E /* MainView.swift */,
+				F28F4B1925524329007A758E /* ContentView.swift */,
+				F28F4B3325524E2C007A758E /* MatchesView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F28F4B2E25524CB3007A758E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F28F4B2F25524CC4007A758E /* Constants.swift */,
+				F2083E9E25525758002C57DB /* TeamModel.swift */,
+				F268CE6F2558FC480088747E /* Pod.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F28F4B38255251A8007A758E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F28F4B3925525222007A758E /* teams.json */,
+				F268CE72255901CE0088747E /* pods.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +196,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F28F4B3A25525222007A758E /* teams.json in Resources */,
 				F28F4B1F25524329007A758E /* Preview Assets.xcassets in Resources */,
 				F28F4B1C25524329007A758E /* Assets.xcassets in Resources */,
+				F268CE73255901CE0088747E /* pods.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +211,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F28F4B1A25524329007A758E /* ContentView.swift in Sources */,
+				F28F4B2A2552479B007A758E /* MainView.swift in Sources */,
+				F2083E9F25525758002C57DB /* TeamModel.swift in Sources */,
 				F28F4B1825524329007A758E /* BTG_Fantasy_Football_PodsApp.swift in Sources */,
+				F28F4B3425524E2C007A758E /* MatchesView.swift in Sources */,
+				F268CE702558FC480088747E /* Pod.swift in Sources */,
+				F2083EA32552588B002C57DB /* CodableBundleExtension.swift in Sources */,
+				F238770E255453AA00F100B3 /* PodListItemView.swift in Sources */,
+				F238770B2553B5E600F100B3 /* TeamListItemView.swift in Sources */,
+				F28F4B3025524CC4007A758E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

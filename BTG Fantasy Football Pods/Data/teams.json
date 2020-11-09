@@ -1,0 +1,102 @@
+[
+{
+    "id" : 1,
+    "name" : "Dakstreet Boys",
+    "owner" : "Jon",
+    "icon" : "team1-icon",
+    "wins" : 5,
+    "losses" : 3,
+    "percentage" : 0.625,
+    "description" : "description here"
+},
+{
+    "id" : 2,
+    "name" : "Jenny UpTheBlock",
+    "owner" : "Jenny",
+    "icon" : "team2-icon",
+    "wins" : 5,
+    "losses" : 3,
+    "percentage": 0.625,
+    "description" : "description here"
+},
+{
+    "id" : 3,
+    "name" : "Your Champ",
+    "owner" : "Josh",
+    "icon" : "team3-icon",
+    "wins" : 5,
+    "losses" : 3,
+    "percentage": 0.625,
+    "description" : "description here"
+},
+{
+    "id" : 4,
+    "name" : "I'm Here So I Won't Get Fined",
+    "owner" : "Shawn",
+    "icon" : "team4-icon",
+    "wins" : 5,
+    "losses" : 3,
+    "percentage": 0.625,
+    "description" : "description here"
+},
+{
+    "id" : 5,
+    "name" : "Hogstown",
+    "owner" : "Joel",
+    "icon" : "team5-icon",
+    "wins" : 5,
+    "losses" : 3,
+    "percentage": 0.625,
+    "description" : "description here"
+},
+{
+    "id" : 6,
+    "name" : "Scotty NeverKnew",
+    "owner" : "Scott",
+    "icon" : "team6-icon",
+    "wins" : 5,
+    "losses" : 3,
+    "percentage": 0.625,
+    "description" : "description here"
+},
+{
+    "id" : 7,
+    "name" : "New England Deflatriots",
+    "owner" : "Adam",
+    "icon" : "team7-icon",
+    "wins" : 5,
+    "losses" : 3,
+    "percentage": 0.625,
+    "description" : "description here"
+},
+{
+    "id" : 8,
+    "name" : "Multiple Scores",
+    "owner" : "Matt",
+    "icon" : "team8-icon",
+    "wins" : 7,
+    "losses" : 1,
+    "percentage": 0.875,
+    "description" : "description here"
+},
+{
+    "id" : 9,
+    "name" : "Skibbidy Dibbidy",
+    "owner" : "Travis",
+    "icon" : "team9-icon",
+    "wins" : 5,
+    "losses" : 3,
+    "percentage": 0.625,
+    "description" : "description here"
+},
+{
+    "id" : 10,
+    "name" : "Hail Meri",
+    "owner" : "Meri",
+    "icon" : "team10-icon",
+    "wins" : 5,
+    "losses" : 3,
+    "percentage": 0.625,
+    "description" : "description here"
+}
+]
