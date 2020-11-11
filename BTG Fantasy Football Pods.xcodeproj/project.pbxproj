@@ -3,16 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2083E9F25525758002C57DB /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2083E9E25525758002C57DB /* TeamModel.swift */; };
+		5788326B8E7C4705F3F50335 /* Pods_BTG_Fantasy_Football_Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011D1EA8DA897ABCB7EE6FB6 /* Pods_BTG_Fantasy_Football_Pods.framework */; };
 		F2083EA32552588B002C57DB /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2083EA22552588B002C57DB /* CodableBundleExtension.swift */; };
 		F238770B2553B5E600F100B3 /* TeamListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238770A2553B5E600F100B3 /* TeamListItemView.swift */; };
 		F238770E255453AA00F100B3 /* PodListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F238770D255453AA00F100B3 /* PodListItemView.swift */; };
 		F268CE702558FC480088747E /* Pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F268CE6F2558FC480088747E /* Pod.swift */; };
-		F268CE73255901CE0088747E /* pods.json in Resources */ = {isa = PBXBuildFile; fileRef = F268CE72255901CE0088747E /* pods.json */; };
+		F268CE76255906D70088747E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F268CE75255906D70088747E /* GoogleService-Info.plist */; };
+		F27DE9E9255C681E00E7BA02 /* TeamsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27DE9E8255C681E00E7BA02 /* TeamsViewModel.swift */; };
+		F27DE9EE255C6AC000E7BA02 /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27DE9ED255C6AC000E7BA02 /* TeamModel.swift */; };
 		F28F4B1825524329007A758E /* BTG_Fantasy_Football_PodsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F4B1725524329007A758E /* BTG_Fantasy_Football_PodsApp.swift */; };
 		F28F4B1A25524329007A758E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F4B1925524329007A758E /* ContentView.swift */; };
 		F28F4B1C25524329007A758E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28F4B1B25524329007A758E /* Assets.xcassets */; };
@@ -24,12 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F2083E9E25525758002C57DB /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
+		011D1EA8DA897ABCB7EE6FB6 /* Pods_BTG_Fantasy_Football_Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTG_Fantasy_Football_Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12EBA701A21946E82079D23 /* Pods-BTG Fantasy Football Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTG Fantasy Football Pods.release.xcconfig"; path = "Target Support Files/Pods-BTG Fantasy Football Pods/Pods-BTG Fantasy Football Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E404F92FB866ED4EEFE402CF /* Pods-BTG Fantasy Football Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTG Fantasy Football Pods.debug.xcconfig"; path = "Target Support Files/Pods-BTG Fantasy Football Pods/Pods-BTG Fantasy Football Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F2083EA22552588B002C57DB /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		F238770A2553B5E600F100B3 /* TeamListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListItemView.swift; sourceTree = "<group>"; };
 		F238770D255453AA00F100B3 /* PodListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodListItemView.swift; sourceTree = "<group>"; };
 		F268CE6F2558FC480088747E /* Pod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pod.swift; sourceTree = "<group>"; };
-		F268CE72255901CE0088747E /* pods.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pods.json; sourceTree = "<group>"; };
+		F268CE75255906D70088747E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F27DE9E8255C681E00E7BA02 /* TeamsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewModel.swift; sourceTree = "<group>"; };
+		F27DE9ED255C6AC000E7BA02 /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
 		F28F4B1425524329007A758E /* BTG Fantasy Football Pods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BTG Fantasy Football Pods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28F4B1725524329007A758E /* BTG_Fantasy_Football_PodsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTG_Fantasy_Football_PodsApp.swift; sourceTree = "<group>"; };
 		F28F4B1925524329007A758E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,12 +53,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5788326B8E7C4705F3F50335 /* Pods_BTG_Fantasy_Football_Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11D53FA42C70485580DEDB73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E404F92FB866ED4EEFE402CF /* Pods-BTG Fantasy Football Pods.debug.xcconfig */,
+				C12EBA701A21946E82079D23 /* Pods-BTG Fantasy Football Pods.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		32CB40D03F3943273C956754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				011D1EA8DA897ABCB7EE6FB6 /* Pods_BTG_Fantasy_Football_Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2083EA125525865002C57DB /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,11 +94,21 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F27DE9E7255C680300E7BA02 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F27DE9E8255C681E00E7BA02 /* TeamsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F28F4B0B25524329007A758E = {
 			isa = PBXGroup;
 			children = (
 				F28F4B1625524329007A758E /* BTG Fantasy Football Pods */,
 				F28F4B1525524329007A758E /* Products */,
+				11D53FA42C70485580DEDB73 /* Pods */,
+				32CB40D03F3943273C956754 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,10 +126,12 @@
 				F28F4B2E25524CB3007A758E /* Model */,
 				F28F4B272552471E007A758E /* App */,
 				F2083EA625530E82002C57DB /* View */,
+				F27DE9E7255C680300E7BA02 /* ViewModel */,
 				F28F4B38255251A8007A758E /* Data */,
 				F2083EA125525865002C57DB /* Extension */,
 				F28F4B1B25524329007A758E /* Assets.xcassets */,
 				F28F4B2025524329007A758E /* Info.plist */,
+				F268CE75255906D70088747E /* GoogleService-Info.plist */,
 				F28F4B1D25524329007A758E /* Preview Content */,
 			);
 			path = "BTG Fantasy Football Pods";
@@ -124,8 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				F28F4B2F25524CC4007A758E /* Constants.swift */,
-				F2083E9E25525758002C57DB /* TeamModel.swift */,
 				F268CE6F2558FC480088747E /* Pod.swift */,
+				F27DE9ED255C6AC000E7BA02 /* TeamModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -134,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				F28F4B3925525222007A758E /* teams.json */,
-				F268CE72255901CE0088747E /* pods.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -146,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F28F4B2325524329007A758E /* Build configuration list for PBXNativeTarget "BTG Fantasy Football Pods" */;
 			buildPhases = (
+				5954EA0B3208FF2B15590021 /* [CP] Check Pods Manifest.lock */,
 				F28F4B1025524329007A758E /* Sources */,
 				F28F4B1125524329007A758E /* Frameworks */,
 				F28F4B1225524329007A758E /* Resources */,
+				0170810E602146FE12C9F8E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,12 +235,54 @@
 			files = (
 				F28F4B3A25525222007A758E /* teams.json in Resources */,
 				F28F4B1F25524329007A758E /* Preview Assets.xcassets in Resources */,
+				F268CE76255906D70088747E /* GoogleService-Info.plist in Resources */,
 				F28F4B1C25524329007A758E /* Assets.xcassets in Resources */,
-				F268CE73255901CE0088747E /* pods.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0170810E602146FE12C9F8E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BTG Fantasy Football Pods/Pods-BTG Fantasy Football Pods-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BTG Fantasy Football Pods/Pods-BTG Fantasy Football Pods-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BTG Fantasy Football Pods/Pods-BTG Fantasy Football Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5954EA0B3208FF2B15590021 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BTG Fantasy Football Pods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F28F4B1025524329007A758E /* Sources */ = {
@@ -211,8 +290,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F28F4B1A25524329007A758E /* ContentView.swift in Sources */,
+				F27DE9E9255C681E00E7BA02 /* TeamsViewModel.swift in Sources */,
+				F27DE9EE255C6AC000E7BA02 /* TeamModel.swift in Sources */,
 				F28F4B2A2552479B007A758E /* MainView.swift in Sources */,
-				F2083E9F25525758002C57DB /* TeamModel.swift in Sources */,
 				F28F4B1825524329007A758E /* BTG_Fantasy_Football_PodsApp.swift in Sources */,
 				F28F4B3425524E2C007A758E /* MatchesView.swift in Sources */,
 				F268CE702558FC480088747E /* Pod.swift in Sources */,
@@ -344,6 +424,7 @@
 		};
 		F28F4B2425524329007A758E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E404F92FB866ED4EEFE402CF /* Pods-BTG Fantasy Football Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -366,6 +447,7 @@
 		};
 		F28F4B2525524329007A758E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C12EBA701A21946E82079D23 /* Pods-BTG Fantasy Football Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

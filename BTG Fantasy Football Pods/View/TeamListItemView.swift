@@ -29,7 +29,7 @@ struct TeamListItemView: View {
                 HStack(spacing:16) {
                     Text("\(team.wins) - \(team.losses)")
                         .fontWeight(.bold)
-                    Text("\(team.percentage, specifier: "%.3f")%")
+                    Text("\(team.pct, specifier: "%.3f")")
                 }
             }
         }
@@ -37,7 +37,7 @@ struct TeamListItemView: View {
 }
 
 struct TeamListItemView_Previews: PreviewProvider {
-    static let teams: [Team] = Bundle.main.decode("teams.json")
+    static let teams: [Team] = testData
     static var previews: some View {
         TeamListItemView(team: teams[0])
             .previewLayout(.sizeThatFits)

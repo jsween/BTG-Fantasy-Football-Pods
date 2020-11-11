@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     // MARK: - PROPERTIES
-    let teams: [Team] = Bundle.main.decode("teams.json")
+    @ObservedObject var teamsViewModel = TeamsViewModel()
     
     // MARK: - BODY
     
@@ -17,12 +17,15 @@ struct ContentView: View {
         NavigationView {
             Group {
                 List {
-                    ForEach(teams) { team in
+                    ForEach(teamsViewModel.teams.sorted()) { team in
                         TeamListItemView(team: team)
                     }
                 }//: LIST
             }//: GROUP
-            .navigationBarTitle(K.AppName)
+            .navigationBarTitle(K.Tab.standings)
+            .onAppear() {
+                self.teamsViewModel.fetchData()
+            }
         }//: NAV
     }
 }
@@ -30,7 +33,7 @@ struct ContentView: View {
 // MARK: - PREVIEW
 
 struct ContentView_Previews: PreviewProvider {
-    static let teams: [Team] = Bundle.main.decode("teams.json")
+    static let teams: [Team] = testData
     static var previews: some View {
         ContentView()
     }
