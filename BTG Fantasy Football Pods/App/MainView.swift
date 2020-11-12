@@ -18,17 +18,17 @@ struct MainView: View {
                     Image(systemName: K.Ic.standings)
                     Text(K.Tab.standings)
                 }
-            MatchesView(pods: [])
+            MatchesView(title: K.Tab.round1)
                 .tabItem {
                     Image(systemName: K.Ic.round1)
                     Text(K.Tab.round1)
                 }
-            MatchesView(pods: [])
+            MatchesView(title: K.Tab.round1)
                 .tabItem {
                     Image(systemName: K.Ic.round2)
                     Text(K.Tab.round2)
                 }
-            MatchesView(pods: [])
+            MatchesView(title: K.Tab.round1)
                 .tabItem {
                     Image(systemName: K.Ic.round3)
                     Text(K.Tab.round3)

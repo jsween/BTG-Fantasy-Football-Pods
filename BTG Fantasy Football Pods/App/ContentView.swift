@@ -19,7 +19,7 @@ struct ContentView: View {
                 List {
                     ForEach(teamsViewModel.teams.sorted()) { team in
                         TeamListItemView(team: team)
-                    }
+                    }//: LOOP
                 }//: LIST
             }//: GROUP
             .navigationBarTitle(K.Tab.standings)

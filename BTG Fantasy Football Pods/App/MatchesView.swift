@@ -9,8 +9,7 @@ import SwiftUI
 
 struct MatchesView: View {
     // MARK: - PROPERTIES
-    var pods: [Pod]
-    
+    var title: String
     // MARK: - BODY
     
     var body: some View {
@@ -21,8 +20,8 @@ struct MatchesView: View {
 // MARK: - PREVIEW
 
 struct Matches_Previews: PreviewProvider {
-    static let pods: [Pod] = [Pod(teams: [], ranking: 0, points: 1.1)]
+    
     static var previews: some View {
-        MatchesView(pods: pods)
+        MatchesView(title: K.Tab.round1)
     }
 }
